@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Abhishek Choudhari is a Flutter developer building thoughtful, dependable mobile experiences."
+    />
+    <meta name="theme-color" content="#0f131d" />
+    <title>Abhishek Choudhari — Flutter Developer</title>
+    <link rel="preload" as="image" href="assets/images1.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/intro/intro.css" />
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <section
+      class="intro-screen"
+      id="intro-screen"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Portfolio introduction video"
+      hidden
+    >
+      <video
+        class="intro-video"
+        id="intro-video"
+        muted
+        playsinline
+        preload="none"
+        poster="assets/images3.jpg"
+        aria-hidden="true"
+      >
+        <source src="assets/Boy_waving_and_saying_hello.mp4" type="video/mp4" />
+      </video>
+      <p class="intro-status" id="intro-status" role="status" aria-live="polite"></p>
+      <div class="intro-controls">
+        <button
+          class="intro-sound"
+          id="intro-sound"
+          type="button"
+          aria-pressed="false"
+          aria-label="Intro audio"
+        >
+          <span class="intro-sound-icon" aria-hidden="true">♪</span>
+          <span class="intro-sound-label">Sound off</span>
+        </button>
+        <button class="intro-skip" id="intro-skip" type="button">
+          Skip intro <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <div class="intro-progress" aria-hidden="true"><span></span></div>
+    </section>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Abhishek Choudhari, home">
+        <span class="wordmark-mark" aria-hidden="true">a<span>.</span></span>
+        <span>abhishek<span class="wordmark-dot">/</span>dev</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Toolkit</a>
+        <a href="#contact">Contact</a>
+        <a
+          class="nav-resume"
+          href="docs/ABHISHEK_CHOUDHARI_Flutter_Developer.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Resume <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero page-shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Flutter developer <span class="eyebrow-divider">/</span> Pune, India</p>
+          <h1 id="hero-title">Mobile apps,<br />made <em>human.</em></h1>
+          <p class="hero-intro">
+            I’m Abhishek — a Flutter developer who turns complex workflows into
+            clear, dependable experiences people can use anywhere.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="mailto:abhishek.choudhari555@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-footnote">
+            <span class="footnote-line" aria-hidden="true"></span>
+            <p>4+ years building for mobile <span>·</span> Flutter &amp; Dart</p>
+          </div>
+        </div>
+
+        <div class="hero-art-wrap" data-reveal>
+          <div class="hero-art-halo" aria-hidden="true"></div>
+          <figure class="hero-art">
+            <img
+              src="assets/images1.jpg"
+              alt="Illustration of a developer creating at a softly glowing desk"
+              data-character
+              fetchpriority="high"
+              width="678"
+              height="452"
+            />
+            <figcaption class="art-caption">
+              <span class="caption-icon" aria-hidden="true">✳</span>
+              <span>Good ideas<br /><strong>deserve good apps.</strong></span>
+            </figcaption>
+          </figure>
+          <div class="floating-note note-top" aria-hidden="true">
+            <span class="note-symbol">&lt;/&gt;</span>
+            <span>built with<br /><strong>Flutter</strong></span>
+          </div>
+          <div class="floating-note note-bottom" aria-hidden="true">
+            <span class="note-spark">✦</span>
+            <span>thoughtful by<br /><strong>design</strong></span>
+          </div>
+          <span class="art-index" aria-hidden="true">01 — 04</span>
+        </div>
+      </section>
+
+      <div class="ticker" aria-label="Specialties">
+        <div class="ticker-track">
+          <span>Flutter &amp; Dart</span><i aria-hidden="true">✳</i>
+          <span>Offline-first thinking</span><i aria-hidden="true">✳</i>
+          <span>Human-centred UI</span><i aria-hidden="true">✳</i>
+          <span>Flutter &amp; Dart</span><i aria-hidden="true">✳</i>
+          <span>Offline-first thinking</span><i aria-hidden="true">✳</i>
+          <span>Human-centred UI</span><i aria-hidden="true">✳</i>
+        </div>
+      </div>
+
+      <section class="work-section section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow section-kicker">Selected work <span class="eyebrow-divider">/</span> 2021—now</p>
+            <h2 id="work-title">Useful things,<br /><em>carefully made.</em></h2>
+          </div>
+          <p class="section-aside">A few mobile problems I’ve helped solve — from a live industrial app to early-stage product ideas.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card-featured" data-reveal>
+            <div class="project-visual visual-engine">
+              <img
+                src="assets/images8.jpg"
+                alt="Illustration of a developer at a workstation with multiple monitors"
+                data-character
+                loading="lazy"
+                width="626"
+                height="417"
+              />
+              <span class="visual-label"><span class="label-dot"></span> Production app</span>
+              <span class="visual-number">01</span>
+            </div>
+            <div class="project-content">
+              <div class="project-title-row">
+                <h3>Perkins My Engine</h3>
+                <span class="project-mark" aria-hidden="true">✳</span>
+              </div>
+              <p>
+                A global mobile experience for engine registration, service
+                history and maintenance — with ongoing production support and
+                Play Store releases.
+              </p>
+              <div class="tag-list" aria-label="Technologies">
+                <span>Flutter</span><span>Mobile</span><span>Production support</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card-offset" data-reveal>
+            <div class="project-visual visual-commerce">
+              <img
+                src="assets/images7.jpg"
+                alt="Illustration of a developer building on a laptop"
+                data-character
+                loading="lazy"
+                width="554"
+                height="554"
+              />
+              <span class="visual-label"><span class="label-dot"></span> Product concept</span>
+              <span class="visual-number">02</span>
+            </div>
+            <div class="project-content">
+              <div class="project-title-row">
+                <h3>E-commerce POC</h3>
+                <span class="project-mark" aria-hidden="true">✳</span>
+              </div>
+              <p>
+                A Riverpod-powered proof of concept exploring a smoother
+                shopping flow and an AI-assisted way to validate ideas sooner.
+              </p>
+              <p class="project-outcome">30% state-management efficiency gain in the POC</p>
+              <div class="tag-list" aria-label="Technologies">
+                <span>Flutter</span><span>Riverpod</span><span>BMAD</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card-offset project-card-third" data-reveal>
+            <div class="project-visual visual-loans">
+              <img
+                src="assets/images6.jpg"
+                alt="Illustration of a character working on a laptop at a desk"
+                data-character
+                loading="lazy"
+                width="360"
+                height="360"
+              />
+              <span class="visual-label"><span class="label-dot"></span> Workflow app</span>
+              <span class="visual-number">03</span>
+            </div>
+            <div class="project-content">
+              <div class="project-title-row">
+                <h3>Loan &amp; agent management</h3>
+                <span class="project-mark" aria-hidden="true">✳</span>
+              </div>
+              <p>
+                A mobile workflow for loan processing teams to capture customer
+                dispositions, follow-up notes and agent activity in the field.
+              </p>
+              <p class="project-outcome">25% improvement in agent productivity</p>
+              <div class="tag-list" aria-label="Technologies">
+                <span>Flutter</span><span>Field operations</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card-fourth" data-reveal>
+            <div class="project-visual visual-insurance">
+              <img
+                src="assets/images9.jpg"
+                alt="Illustration of a developer using a laptop among plants"
+                data-character
+                loading="lazy"
+                width="554"
+                height="554"
+              />
+              <span class="visual-label"><span class="label-dot"></span> Decision support</span>
+              <span class="visual-number">04</span>
+            </div>
+            <div class="project-content">
+              <div class="project-title-row">
+                <h3>Insurance cost calculator</h3>
+                <span class="project-mark" aria-hidden="true">✳</span>
+              </div>
+              <p>
+                A cost estimation tool that compares insurance options and
+                ranks relevant payers by price and geography.
+              </p>
+              <p class="project-outcome">25% increase in user engagement</p>
+              <div class="tag-list" aria-label="Technologies">
+                <span>Flutter</span><span>Algorithms</span><span>Mobile</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="work-note" data-reveal>
+          Illustrations are character artwork, not screenshots of the applications.
+        </p>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-inner section-shell">
+          <div class="about-portrait" data-reveal>
+            <div class="portrait-frame">
+              <img
+                src="assets/images3.jpg"
+                alt="Friendly illustrated portrait of a developer wearing glasses"
+                data-character
+                loading="lazy"
+                width="554"
+                height="554"
+              />
+            </div>
+            <span class="portrait-stamp" aria-hidden="true">made with<br />curiosity <span>✳</span></span>
+            <span class="portrait-caption">A little character, a lot of care.</span>
+          </div>
+
+          <div class="about-copy" data-reveal>
+            <p class="eyebrow section-kicker">A bit about me <span class="eyebrow-divider">/</span> the person behind the pixels</p>
+            <h2 id="about-title">I like the hard parts<br />to feel <em>simple.</em></h2>
+            <p class="about-lede">
+              The best mobile experiences don’t make people think about the
+              technology. They make the next step feel obvious.
+            </p>
+            <p class="about-body">
+              I’m a Flutter developer with 4+ years of experience across
+              product teams at Infosys and Suma Soft. I enjoy building
+              intuitive interfaces, connecting them to real-world systems,
+              and making sure an app keeps working when the network doesn’t.
+            </p>
+            <div class="principles">
+              <div><span class="principle-mark">01</span><span>Clarity over clutter</span></div>
+              <div><span class="principle-mark">02</span><span>Reliable, offline-aware flows</span></div>
+              <div><span class="principle-mark">03</span><span>Steady improvements after launch</span></div>
+            </div>
+            <a class="text-link about-link" href="#experience">More of my journey <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolkit-section section-shell" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading toolkit-heading" data-reveal>
+          <div>
+            <p class="eyebrow section-kicker">The toolkit <span class="eyebrow-divider">/</span> practical, not precious</p>
+            <h2 id="skills-title">The right tool<br /><em>for the job.</em></h2>
+          </div>
+          <p class="section-aside">A focused stack for shipping and supporting cross-platform mobile products.</p>
+        </div>
+
+        <div class="toolkit-grid">
+          <article class="toolkit-card" data-reveal>
+            <span class="toolkit-index">01</span>
+            <span class="toolkit-icon icon-flutter" aria-hidden="true">F</span>
+            <h3>Mobile craft</h3>
+            <p>Interfaces that feel considered, responsive and easy to navigate.</p>
+            <div class="tag-list"><span>Flutter</span><span>Dart</span><span>Android</span><span>Java</span></div>
+          </article>
+          <article class="toolkit-card" data-reveal>
+            <span class="toolkit-index">02</span>
+            <span class="toolkit-icon icon-state" aria-hidden="true">↗</span>
+            <h3>App architecture</h3>
+            <p>State and data flows built to stay understandable as products grow.</p>
+            <div class="tag-list"><span>Riverpod</span><span>BLoC</span><span>GetX</span><span>REST APIs</span></div>
+          </article>
+          <article class="toolkit-card" data-reveal>
+            <span class="toolkit-index">03</span>
+            <span class="toolkit-icon icon-sync" aria-hidden="true">⟳</span>
+            <h3>Built for real life</h3>
+            <p>Practical support for connectivity, language and production needs.</p>
+            <div class="tag-list"><span>SQLite</span><span>Firebase</span><span>Offline sync</span><span>Localization</span></div>
+          </article>
+          <article class="toolkit-card" data-reveal>
+            <span class="toolkit-index">04</span>
+            <span class="toolkit-icon icon-ai" aria-hidden="true">✳</span>
+            <h3>Modern workflow</h3>
+            <p>Thoughtful AI-assisted prototyping, with engineering judgement in the loop.</p>
+            <div class="tag-list"><span>GitHub Copilot</span><span>Claude</span><span>Prompting</span><span>BMAD</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="experience-inner section-shell">
+          <div class="experience-intro" data-reveal>
+            <p class="eyebrow section-kicker">The journey so far <span class="eyebrow-divider">/</span> 2013—now</p>
+            <h2 id="experience-title">Learning by<br /><em>making.</em></h2>
+            <p>From computer science foundations to production mobile apps — and still curious about what’s next.</p>
+            <a class="text-link" href="docs/ABHISHEK_CHOUDHARI_Flutter_Developer.pdf" target="_blank" rel="noopener">
+              Read the full resume <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="timeline" data-reveal>
+            <article class="timeline-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-date">Sep 2025 — Present <span>Pune, India</span></div>
+              <div class="timeline-details">
+                <h3>Senior Associate Consultant</h3>
+                <p class="timeline-company">Infosys <span>·</span> Flutter Developer</p>
+                <p>Building and supporting a global engine-service app, with product features, production fixes and release cycles.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-date">Nov 2021 — Jun 2025 <span>Pune, India</span></div>
+              <div class="timeline-details">
+                <h3>Junior Software Engineer</h3>
+                <p class="timeline-company">Suma Soft Pvt. Ltd. <span>·</span> Mobile development</p>
+                <p>Created Flutter solutions for loan processing, insurance estimates and call-centre workflows, plus a native Android audit tool.</p>
+              </div>
+            </article>
+            <article class="timeline-item education-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-date">2016 — 2019 <span>Belagavi, India</span></div>
+              <div class="timeline-details">
+                <h3>Master of Computer Applications</h3>
+                <p class="timeline-company">Jain College of Engineering</p>
+              </div>
+            </article>
+            <article class="timeline-item education-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-date">2013 — 2016 <span>Gokak, India</span></div>
+              <div class="timeline-details">
+                <h3>Bachelor of Computer Applications</h3>
+                <p class="timeline-company">Shri Siddhalingeshwer BCA College</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card" data-reveal>
+          <div class="contact-orbit orbit-one" aria-hidden="true"></div>
+          <div class="contact-orbit orbit-two" aria-hidden="true"></div>
+          <div class="contact-content">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Have a good one in mind?</p>
+            <h2 id="contact-title">Let’s make it<br /><em>work beautifully.</em></h2>
+            <p>I’m always happy to talk mobile products, thoughtful engineering and the details that make an app click.</p>
+            <a class="button button-light" href="mailto:abhishek.choudhari555@gmail.com">
+              Say hello <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="contact-side">
+            <span class="contact-side-mark" aria-hidden="true">a<span>.</span></span>
+            <span>Flutter developer<br />based in Pune, India</span>
+            <span class="contact-spark" aria-hidden="true">✳</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="wordmark footer-wordmark" href="#top" aria-label="Back to top">
+        <span class="wordmark-mark" aria-hidden="true">a<span>.</span></span>
+        <span>abhishek<span class="wordmark-dot">/</span>dev</span>
+      </a>
+      <p>Crafting thoughtful experiences, one mobile flow at a time.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/abhishek-j-choudhari-/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="mailto:abhishek.choudhari555@gmail.com">Email <span aria-hidden="true">↗</span></a>
+        <span>© 2026</span>
+      </div>
+    </footer>
+  </body>
+</html>
